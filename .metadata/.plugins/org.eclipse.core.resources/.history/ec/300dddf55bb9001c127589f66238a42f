@@ -1,0 +1,10 @@
+package com.example.entity;
+
+
+public class Employee {
+	
+	private Integer empid;
+	private String empname;
+	private Double empsal;
+
+}

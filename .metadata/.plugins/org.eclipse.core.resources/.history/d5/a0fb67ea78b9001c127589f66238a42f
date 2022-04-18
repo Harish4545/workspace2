@@ -1,0 +1,55 @@
+package com.example.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
+public class Order {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Integer orderid;
+	private String ordername;
+	private Double ordercost;
+	
+	
+	public Order() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Order(Integer orderid, String ordername, Double ordercost) {
+		super();
+		this.orderid = orderid;
+		this.ordername = ordername;
+		this.ordercost = ordercost;
+	}
+	@Override
+	public String toString() {
+		return "Order [orderid=" + orderid + ", ordername=" + ordername + ", ordercost=" + ordercost + "]";
+	}
+	public Integer getOrderid() {
+		return orderid;
+	}
+	public void setOrderid(Integer orderid) {
+		this.orderid = orderid;
+	}
+	public String getOrdername() {
+		return ordername;
+	}
+	public void setOrdername(String ordername) {
+		this.ordername = ordername;
+	}
+	public Double getOrdercost() {
+		return ordercost;
+	}
+	public void setOrdercost(Double ordercost) {
+		this.ordercost = ordercost;
+	}
+	
+	
+	
+	
+	
+}

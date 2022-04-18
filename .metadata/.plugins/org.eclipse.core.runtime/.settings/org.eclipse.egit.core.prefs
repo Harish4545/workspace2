@@ -1,0 +1,4 @@
+GitRepositoriesView.GitDirectories=C\:\\Users\\Harish.Thatha\\Documents\\workspace2\\FeignEurekaServer\\.git;C\:\\Users\\Harish.Thatha\\Documents\\workspace2\\FeignOrderService\\.git;C\:\\Users\\Harish.Thatha\\Documents\\workspace2\\SpringBootCloudProductService\\.git;
+GitRepositoriesView.GitDirectories.relative=FeignEurekaServer\\.git;FeignOrderService\\.git;SpringBootCloudProductService\\.git;
+core_autoIgnoreDerivedResources=false
+eclipse.preferences.version=1
